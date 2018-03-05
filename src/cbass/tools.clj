@@ -1,6 +1,6 @@
 (ns cbass.tools
   (:require [taoensso.nippy :as n]
-            [æsahættr :refer [hash-object hash-bytes murmur3-32 murmur3-128]])
+            [buzzlabs-aesahaettr :refer [hash-object hash-bytes murmur3-32 murmur3-128]])
   (:import [org.apache.hadoop.hbase.util Bytes]
            [java.time Instant ZoneId ZonedDateTime ZoneOffset Duration]
            [java.time.format DateTimeFormatter]

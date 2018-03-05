@@ -1,4 +1,4 @@
-(ns cbass
+(ns buzzlabs-cbass
   (:require [taoensso.nippy :as n]
             [cbass.scan :refer [scan-filter]]
             [cbass.tools :refer [to-bytes thaw no-values]])
